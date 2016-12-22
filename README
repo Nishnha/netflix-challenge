@@ -1,0 +1,25 @@
+How to run:
+
+ProbeAnswers.py:
+python3 ProbeAnswers.py training_set probe.txt
+
+OverallMeans.py
+python3 OverallMeans.py training_set
+
+Netflix1.py
+python3 Netflix1.py probe.txt actualRatings.txt
+
+customerMeans.py:
+python3 customerMeans.py training_set
+
+movieMeans.py:
+python3 movieMeans.py training_set
+
+Netflix2
+python3 Netflix2.py probe.txt actualRatings.txt customerMeans.txt
+
+Netflix3:
+python3 Netflix3.py probe.txt actualRatings.txt movieMeans.txt
+
+Netflix4:
+python3 Netflix4.py probe.txt actualRatings.txt customerMeans.txt movieMeans.txt
